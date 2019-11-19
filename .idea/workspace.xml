@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338a6243-c81d-4640-9bcc-ff66b7cf8f65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CountDownLatch/Parallelismlimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CyclicBarrier/CyclicBarrierTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +24,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="43" />
+          <entry key="java" value="45" />
           <entry key="readme" value="1" />
           <entry key="xml" value="1" />
           <entry key="zreadme" value="2" />
@@ -32,7 +32,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="43" />
+          <entry key="JAVA" value="45" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="1" />
         </counts>
@@ -40,13 +40,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="23" />
-          <entry key="java" value="3553" />
+          <entry key="java" value="3848" />
           <entry key="zreadme" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3553" />
+          <entry key="JAVA" value="3848" />
           <entry key="PLAIN_TEXT" value="58" />
         </counts>
       </usages-collector>
@@ -54,41 +54,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CountDownLatch/CountDownLatchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CountDownLatch/Parallelismlimit.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CyclicBarrier/CyclicBarrierTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            <state relative-caret-position="259">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CountDownLatch/RunTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,6 +123,8 @@
         <option value="$PROJECT_DIR$/src/main/java/CountDownLatch/dd.java" />
         <option value="$PROJECT_DIR$/src/main/java/CountDownLatch/Parallellimit.java" />
         <option value="$PROJECT_DIR$/src/main/java/CountDownLatch/Parallelismlimit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SynchronizationOnANonFinalField/class1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CyclicBarrier/CyclicBarrierTest.java" />
       </list>
     </option>
   </component>
@@ -218,14 +195,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="felixzhDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="CountDownLatch" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -237,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574146638365" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574148501508" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../KafkaTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -264,22 +233,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Parallelismlimit">
+  <component name="RunManager" selected="Application.CyclicBarrierTest">
     <configuration name="AtomicBooleanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Atomic.AtomicBooleanTest" />
-      <module name="felixzhDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Atomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BooleanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Atomic.BooleanTest" />
       <module name="felixzhDemo" />
       <extension name="coverage">
         <pattern>
@@ -304,6 +260,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CyclicBarrier.CyclicBarrierTest" />
+      <module name="felixzhDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CyclicBarrier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Parallelismlimit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountDownLatch.Parallelismlimit" />
       <module name="felixzhDemo" />
@@ -317,12 +286,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reactor.Reactor" />
+    <configuration name="class1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SynchronizationOnANonFinalField.class1" />
       <module name="felixzhDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reactor.*" />
+          <option name="PATTERN" value="SynchronizationOnANonFinalField.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,19 +300,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Reactor" />
-      <item itemvalue="Application.BooleanTest" />
       <item itemvalue="Application.AtomicBooleanTest" />
       <item itemvalue="Application.CountDownLatchTest" />
       <item itemvalue="Application.Parallelismlimit" />
+      <item itemvalue="Application.class1" />
+      <item itemvalue="Application.CyclicBarrierTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierTest" />
+        <item itemvalue="Application.class1" />
         <item itemvalue="Application.Parallelismlimit" />
         <item itemvalue="Application.CountDownLatchTest" />
         <item itemvalue="Application.AtomicBooleanTest" />
-        <item itemvalue="Application.BooleanTest" />
-        <item itemvalue="Application.Reactor" />
       </list>
     </recent_temporary>
   </component>
@@ -359,18 +328,18 @@
       <updated>1573459693028</updated>
       <workItem from="1573459696117" duration="15394000" />
       <workItem from="1573613317233" duration="2163000" />
-      <workItem from="1573783035356" duration="11593000" />
+      <workItem from="1573783035356" duration="13450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29150000" />
+    <option name="totallyTimeSpent" value="31007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49666223" visible="true" weight="0.18283582" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49666223" visible="true" weight="0.18283582" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -379,7 +348,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22451194" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31127983" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2635575" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -631,7 +600,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CountDownLatch/RunTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
+        <state relative-caret-position="375">
           <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -653,12 +622,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CountDownLatch/Parallelismlimit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="263">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#714#715#0" expanded="true" />
             <element signature="e#766#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SynchronizationOnANonFinalField/class1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CyclicBarrier/CyclicBarrierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
           </folding>
         </state>
       </provider>
