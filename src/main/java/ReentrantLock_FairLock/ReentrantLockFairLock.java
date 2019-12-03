@@ -1,4 +1,4 @@
-package FairLock_ReentrantLock;
+package ReentrantLock_FairLock;
 
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
  *
  * new ReentrantLock(true) 实现公平锁
  * */
-public class FairLockReentrantLock {
+public class ReentrantLockFairLock {
 
     private ReentrantLock reentrantLock = new ReentrantLock(true);
 
@@ -20,7 +20,7 @@ public class FairLockReentrantLock {
     }
 
     public static void main(String[] args) {
-        FairLockReentrantLock myFairLock = new FairLockReentrantLock();
+        ReentrantLockFairLock myFairLock = new ReentrantLockFairLock();
         Runnable runnable = () -> {
             //@Override
             //public void run() {
