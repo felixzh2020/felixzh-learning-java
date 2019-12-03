@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338a6243-c81d-4640-9bcc-ff66b7cf8f65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FairLock_ReentrantLock/FairLockReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReentrantLock_UnFairLock/ReentrantLockUnFairLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReentrantLock_UnFairLock/ReentrantLockUnFairLockResult.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +26,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="50" />
+          <entry key="PNG" value="1" />
+          <entry key="java" value="54" />
           <entry key="readme" value="1" />
           <entry key="xml" value="1" />
           <entry key="zreadme" value="2" />
@@ -32,84 +35,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="50" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="54" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="40" />
-          <entry key="java" value="4628" />
+          <entry key="dummy" value="48" />
+          <entry key="java" value="5028" />
           <entry key="zreadme" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4628" />
-          <entry key="PLAIN_TEXT" value="75" />
+          <entry key="JAVA" value="5028" />
+          <entry key="PLAIN_TEXT" value="83" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Semaphore/SemaphoreTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FairLock_ReentrantLock/FairLockReentrantLock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Atomic/AtomicBooleanTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="247">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="265" column="11" selection-start-line="265" selection-start-column="11" selection-end-line="265" selection-end-column="11" />
-              <folding>
-                <element signature="e#8451#8452#0" expanded="true" />
-                <element signature="e#8515#8516#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/Semaphore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="263" column="11" selection-start-line="263" selection-start-column="11" selection-end-line="263" selection-end-column="11" />
-              <folding>
-                <element signature="e#9084#9085#0" expanded="true" />
-                <element signature="e#9131#9132#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,6 +132,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Lock/MyFairLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/FairLock_ReentrantLock/MyFairLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/FairLock_ReentrantLock/FairLockReentrantLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/FairLockReentrantLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReentrantLock_UnFairLock/ReentrantLockUnFairLock.java" />
       </list>
     </option>
   </component>
@@ -253,7 +211,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="FairLock_ReentrantLock" type="462c0819:PsiDirectoryNode" />
+              <item name="ReentrantLock_FairLock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="felixzhDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="felixzhDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ReentrantLock_UnFairLock" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,7 +232,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575364439686" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575365918661" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../KafkaTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -307,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FairLockReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FairLock_ReentrantLock.FairLockReentrantLock" />
+    <configuration name="ReentrantLockFairLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReentrantLock_FairLock.ReentrantLockFairLock" />
       <module name="felixzhDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FairLock_ReentrantLock.*" />
+          <option name="PATTERN" value="ReentrantLock_FairLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,12 +286,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Parallelismlimit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountDownLatch.Parallelismlimit" />
+    <configuration name="ReentrantLockUnFairLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReentrantLock_UnFairLock.ReentrantLockUnFairLock" />
       <module name="felixzhDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CountDownLatch.*" />
+          <option name="PATTERN" value="ReentrantLock_UnFairLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,19 +326,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Parallelismlimit" />
       <item itemvalue="Application.class1" />
       <item itemvalue="Application.CyclicBarrierTest" />
       <item itemvalue="Application.SemaphoreTest" />
-      <item itemvalue="Application.FairLockReentrantLock" />
+      <item itemvalue="Application.ReentrantLockFairLock" />
+      <item itemvalue="Application.ReentrantLockUnFairLock" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FairLockReentrantLock" />
+        <item itemvalue="Application.ReentrantLockFairLock" />
+        <item itemvalue="Application.ReentrantLockUnFairLock" />
         <item itemvalue="Application.SemaphoreTest" />
         <item itemvalue="Application.CyclicBarrierTest" />
         <item itemvalue="Application.class1" />
-        <item itemvalue="Application.Parallelismlimit" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +359,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34823000" />
+    <option name="totallyTimeSpent" value="36294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -407,7 +373,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49666223" visible="true" weight="0.18710022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49666223" visible="true" weight="0.18710022" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -416,14 +382,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22451194" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.68546635" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.68329716" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23101953" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.23101953" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -756,10 +722,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FairLock_ReentrantLock/FairLockReentrantLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLock_UnFairLock/ReentrantLockUnFairLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="291">
+          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLock_UnFairLock/ReentrantLockUnFairLockResult.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

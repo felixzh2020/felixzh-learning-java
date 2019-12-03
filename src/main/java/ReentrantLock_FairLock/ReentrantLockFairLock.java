@@ -1,5 +1,6 @@
 package ReentrantLock_FairLock;
 
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -10,11 +11,14 @@ public class ReentrantLockFairLock {
 
     private ReentrantLock reentrantLock = new ReentrantLock(true);
 
-    private void testMyFairLock() {
+    private void testFairLock() {
         try {
             reentrantLock.lock();
             System.out.println(Thread.currentThread().getName() + ": get lock");
-        } finally {
+            TimeUnit.SECONDS.sleep(1);
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }finally {
             reentrantLock.unlock();
         }
     }
@@ -25,7 +29,7 @@ public class ReentrantLockFairLock {
             //@Override
             //public void run() {
                 System.out.println(Thread.currentThread().getName() + ": start");
-                myFairLock.testMyFairLock();
+                myFairLock.testFairLock();
             //}
         };
 
