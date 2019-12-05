@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338a6243-c81d-4640-9bcc-ff66b7cf8f65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReentrantLock_UnFairLock/ReentrantLockUnFairLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReentrantLock_UnFairLock/ReentrantLockUnFairLockResult.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/Person2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/ThreadSafeReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/ThreadSafeSynchronize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/UnThreadSafe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +29,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="PNG" value="1" />
-          <entry key="java" value="54" />
+          <entry key="java" value="62" />
           <entry key="readme" value="1" />
           <entry key="xml" value="1" />
           <entry key="zreadme" value="2" />
@@ -36,7 +38,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="54" />
+          <entry key="JAVA" value="62" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="1" />
         </counts>
@@ -44,13 +46,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="48" />
-          <entry key="java" value="5028" />
+          <entry key="java" value="6351" />
           <entry key="zreadme" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5028" />
+          <entry key="JAVA" value="6351" />
           <entry key="PLAIN_TEXT" value="83" />
         </counts>
       </usages-collector>
@@ -59,12 +61,63 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/ThreadSafeReentrantLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="259">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="498" column="16" selection-start-line="498" selection-start-column="16" selection-end-line="498" selection-end-column="16" />
+              <folding>
+                <element signature="e#8451#8452#0" expanded="true" />
+                <element signature="e#8515#8516#0" expanded="true" />
+                <element signature="e#17535#17536#0" expanded="true" />
+                <element signature="e#17577#17578#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/Condition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1422">
+              <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/Person2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,6 +138,9 @@
       <find>main</find>
       <find>selector</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,6 +191,11 @@
         <option value="$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/FairLockReentrantLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReentrantLock_UnFairLock/ReentrantLockUnFairLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/UnThreadSafe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/ThreadSafeSynchronize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/Person2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/ThreadSafeReentrantLock.java" />
       </list>
     </option>
   </component>
@@ -211,15 +272,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ReentrantLock_FairLock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="felixzhDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="felixzhDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ReentrantLock_UnFairLock" type="462c0819:PsiDirectoryNode" />
+              <item name="ReentrantLockAndSynchronized" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,7 +285,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575365918661" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575514816585" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../KafkaTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -242,7 +295,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sourceCode\felixzhDemo\src\main\java\ReentrantLock_UnFairLock" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sourceCode\felixzhDemo\src\main\java\ReentrantLock_FairLock" />
       <recent name="D:\sourceCode\felixzhDemo\src\main\java\Reactor" />
       <recent name="D:\sourceCode\felixzhDemo" />
     </key>
@@ -259,20 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CyclicBarrier.CyclicBarrierTest" />
-      <module name="felixzhDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CyclicBarrier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadSafeReentrantLock">
     <configuration name="ReentrantLockFairLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReentrantLock_FairLock.ReentrantLockFairLock" />
       <module name="felixzhDemo" />
@@ -299,12 +343,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Semaphore.SemaphoreTest" />
+    <configuration name="ThreadSafeReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReentrantLockAndSynchronized.ThreadSafeReentrantLock" />
       <module name="felixzhDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Semaphore.*" />
+          <option name="PATTERN" value="ReentrantLockAndSynchronized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,12 +356,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="class1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SynchronizationOnANonFinalField.class1" />
+    <configuration name="ThreadSafeSynchronize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReentrantLockAndSynchronized.ThreadSafeSynchronize" />
       <module name="felixzhDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SynchronizationOnANonFinalField.*" />
+          <option name="PATTERN" value="ReentrantLockAndSynchronized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnThreadSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReentrantLockAndSynchronized.UnThreadSafe" />
+      <module name="felixzhDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ReentrantLockAndSynchronized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,19 +383,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.class1" />
-      <item itemvalue="Application.CyclicBarrierTest" />
-      <item itemvalue="Application.SemaphoreTest" />
       <item itemvalue="Application.ReentrantLockFairLock" />
       <item itemvalue="Application.ReentrantLockUnFairLock" />
+      <item itemvalue="Application.UnThreadSafe" />
+      <item itemvalue="Application.ThreadSafeSynchronize" />
+      <item itemvalue="Application.ThreadSafeReentrantLock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadSafeReentrantLock" />
+        <item itemvalue="Application.ThreadSafeSynchronize" />
+        <item itemvalue="Application.UnThreadSafe" />
         <item itemvalue="Application.ReentrantLockFairLock" />
         <item itemvalue="Application.ReentrantLockUnFairLock" />
-        <item itemvalue="Application.SemaphoreTest" />
-        <item itemvalue="Application.CyclicBarrierTest" />
-        <item itemvalue="Application.class1" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +416,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36294000" />
+    <option name="totallyTimeSpent" value="45974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,8 +429,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49666223" visible="true" weight="0.18710022" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49666223" visible="true" weight="0.18710022" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -382,7 +440,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22451194" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.68329716" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20390455" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -617,6 +675,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -699,17 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="265" column="11" selection-start-line="265" selection-start-column="11" selection-end-line="265" selection-end-column="11" />
-          <folding>
-            <element signature="e#8451#8452#0" expanded="true" />
-            <element signature="e#8515#8516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Atomic/AtomicBooleanTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -737,8 +789,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="322">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/UnThreadSafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-359">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="465" column="67" lean-forward="true" selection-start-line="463" selection-start-column="7" selection-end-line="465" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/ThreadSafeSynchronize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/Person2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="498" column="16" selection-start-line="498" selection-start-column="16" selection-end-line="498" selection-end-column="16" />
+          <folding>
+            <element signature="e#8451#8452#0" expanded="true" />
+            <element signature="e#8515#8516#0" expanded="true" />
+            <element signature="e#17535#17536#0" expanded="true" />
+            <element signature="e#17577#17578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/ThreadSafeReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
