@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338a6243-c81d-4640-9bcc-ff66b7cf8f65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern_Singleton/MySystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPattern_Singleton/SingletonPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantReadWriteLock/ReentrantReadWriteLockTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReentrantReadWriteLock/ReentrantReadWriteLockTest2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +26,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="PNG" value="1" />
-          <entry key="java" value="66" />
+          <entry key="java" value="68" />
           <entry key="readme" value="1" />
           <entry key="xml" value="1" />
           <entry key="zreadme" value="2" />
@@ -34,7 +35,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="66" />
+          <entry key="JAVA" value="68" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="1" />
         </counts>
@@ -42,13 +43,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="52" />
-          <entry key="java" value="7584" />
+          <entry key="java" value="7855" />
           <entry key="zreadme" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7584" />
+          <entry key="JAVA" value="7855" />
           <entry key="PLAIN_TEXT" value="87" />
         </counts>
       </usages-collector>
@@ -57,12 +58,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantReadWriteLock/ReentrantReadWriteLockTest2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern_Singleton/SingletonPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+            <state relative-caret-position="225">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern_Singleton/MySystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="e#217#218#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,6 +157,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/ThreadSafeReentrantLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReentrantReadWriteLock/ReentrantReadWriteLockTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReentrantReadWriteLock/ReentrantReadWriteLockTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DesignPattern/SingletonPattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DesignPattern_Singleton/SingletonPattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DesignPattern_Singleton/MySystem.java" />
       </list>
     </option>
   </component>
@@ -219,7 +236,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ReentrantReadWriteLock" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPattern_Singleton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,7 +249,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575528917067" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575536095597" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../KafkaTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -263,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReentrantReadWriteLockTest2">
+  <component name="RunManager" selected="Application.SingletonPattern">
     <configuration name="ReentrantReadWriteLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReentrantReadWriteLock.ReentrantReadWriteLockTest" />
       <module name="felixzhDemo" />
@@ -283,6 +300,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ReentrantReadWriteLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPattern_Singleton.SingletonPattern" />
+      <module name="felixzhDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPattern_Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,33 +346,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnThreadSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReentrantLockAndSynchronized.UnThreadSafe" />
-      <module name="felixzhDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ReentrantLockAndSynchronized.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.UnThreadSafe" />
       <item itemvalue="Application.ThreadSafeSynchronize" />
       <item itemvalue="Application.ThreadSafeReentrantLock" />
       <item itemvalue="Application.ReentrantReadWriteLockTest" />
       <item itemvalue="Application.ReentrantReadWriteLockTest2" />
+      <item itemvalue="Application.SingletonPattern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonPattern" />
         <item itemvalue="Application.ReentrantReadWriteLockTest2" />
         <item itemvalue="Application.ReentrantReadWriteLockTest" />
         <item itemvalue="Application.ThreadSafeReentrantLock" />
         <item itemvalue="Application.ThreadSafeSynchronize" />
-        <item itemvalue="Application.UnThreadSafe" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +380,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50999000" />
+    <option name="totallyTimeSpent" value="52382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,7 +395,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49666223" visible="true" weight="0.18710022" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49666223" visible="true" weight="0.18710022" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -387,7 +404,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22451194" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34924078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4273319" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,16 +432,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -825,6 +832,27 @@
           <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern_Singleton/MySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern_Singleton/SingletonPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
           </folding>
         </state>
       </provider>
