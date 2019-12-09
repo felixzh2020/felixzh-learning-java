@@ -23,7 +23,10 @@ public class FileChannelTest {
         //FileChannel fileChannel = FileChannel.open(path, StandardOpenOption.CREATE, StandardOpenOption.WRITE, StandardOpenOption.READ, StandardOpenOption.APPEND);
 
         //追加写
-        FileChannel fileChannel = FileChannel.open(path, StandardOpenOption.CREATE, StandardOpenOption.WRITE, StandardOpenOption.APPEND);
+        //FileChannel fileChannel = FileChannel.open(path, StandardOpenOption.CREATE, StandardOpenOption.WRITE, StandardOpenOption.APPEND);
+
+        //读取
+        FileChannel fileChannel = FileChannel.open(path, StandardOpenOption.CREATE, StandardOpenOption.WRITE, StandardOpenOption.READ);
 
 
         //fileChannel.lock();
@@ -58,6 +61,22 @@ public class FileChannelTest {
         }
 
         printMsg(byteBuffer);
+
+        byteBuffer.clear();
+
+        while (true) {
+            int count = fileChannel.read(byteBuffer);
+            if (count <= -1) {
+                break;
+            }
+            byteBuffer.flip();
+            while (byteBuffer.hasRemaining()) {
+                char ch = (char) byteBuffer.get();
+                System.out.print(ch);
+            }
+            byteBuffer.compact();
+        }
+
         fileChannel.close();
 
     }
