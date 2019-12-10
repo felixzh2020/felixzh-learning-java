@@ -30,7 +30,7 @@ import java.nio.file.Paths;
 public class MappedByteBufferTest {
 
     public static void main(String[] args) {
-        String path = "c:/zyf";
+        String path = "c:/felixzh";
         write(path);
 
         try {

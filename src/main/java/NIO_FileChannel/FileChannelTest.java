@@ -10,8 +10,8 @@ import java.util.Date;
 
 public class FileChannelTest {
     public static void main(String[] args) throws Exception {
-        //Path path = Paths.get("c://zyf");
-        Path path = new File("c://zyf").toPath();
+        //Path path = Paths.get("c://felixzh");
+        Path path = new File("c://felixzh").toPath();
 
         //覆盖写：文件不存在，新建
         //FileChannel fileChannel = FileChannel.open(path, StandardOpenOption.CREATE, StandardOpenOption.WRITE, StandardOpenOption.READ);
