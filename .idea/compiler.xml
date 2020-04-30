@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="felixzhDemo" />
+        <module name="felixzh-learning-java" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="felixzhDemo" target="1.8" />
+      <module name="felixzh-learning-java" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
