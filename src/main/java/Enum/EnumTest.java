@@ -14,6 +14,9 @@ public class EnumTest {
 
         for (Status status : Status.values()) {
             System.out.println("==" + status);
+            if (status.toString().equals("fail")) {
+                System.out.println(true);
+            }
         }
     }
 }
