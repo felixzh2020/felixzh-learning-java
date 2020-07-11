@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338a6243-c81d-4640-9bcc-ff66b7cf8f65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JDKVector/VectorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JDKVector/VectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDKVector/VectorDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,12 +103,12 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="3" />
-          <entry key="java" value="17" />
+          <entry key="java" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="18" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -117,12 +116,12 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="gitignore" value="15" />
-          <entry key="java" value="1505" />
+          <entry key="java" value="1512" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1505" />
+          <entry key="JAVA" value="1512" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -133,23 +132,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/JDKVector/VectorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            <state relative-caret-position="299">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Vector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="138" column="50" selection-start-line="138" selection-start-column="33" selection-end-line="138" selection-end-column="50" />
-              <folding>
-                <element signature="e#5550#5551#0" expanded="true" />
-                <element signature="e#5590#5591#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -327,6 +313,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="felixzh-learning-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="felixzh-learning-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JDKVector" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -337,7 +331,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594436385405" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594456909724" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../plink" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -473,12 +467,12 @@
       <workItem from="1590569058401" duration="4691000" />
       <workItem from="1591236438655" duration="4606000" />
       <workItem from="1593592775621" duration="2435000" />
-      <workItem from="1594350756613" duration="5082000" />
+      <workItem from="1594350756613" duration="6071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116325000" />
+    <option name="totallyTimeSpent" value="117314000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,7 +487,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.123644255" visible="true" weight="0.20628998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.123644255" visible="true" weight="0.20628998" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -502,14 +496,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22451194" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.318872" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.318872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2407809" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2407809" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Extract Method" order="12" weight="0.329718" />
@@ -880,8 +874,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JDKVector/VectorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        <state relative-caret-position="299">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

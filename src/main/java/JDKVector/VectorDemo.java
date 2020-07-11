@@ -20,6 +20,8 @@ public class VectorDemo {
 
         System.out.println("First element: " + vector.firstElement());
         System.out.println("Remove element: " + vector.remove(0));
+        System.out.println("Remove after size: " + vector.size());
+        System.out.println("Remove after capacity: " + vector.capacity());
         System.out.println(vector.elementAt(0));
         System.out.println("First element: " + vector.firstElement());
 
