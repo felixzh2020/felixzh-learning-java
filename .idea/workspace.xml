@@ -2,9 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338a6243-c81d-4640-9bcc-ff66b7cf8f65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/JDKVector/VectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDKVector/VectorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDKSpi/JDKSpi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/KafkaImpl/KMQProducerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/RabbitMQImpl/RMQProducerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDKSpi/src/main/resources/META-INF/services/com.felixzh.SDKInterface.MQProducer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Atomic/AtomicBooleanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/Atomic/AtomicBooleanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Atomic/BooleanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/Atomic/BooleanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CommonUtils/GetHostPortFromAdderssString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/CommonUtils/GetHostPortFromAdderssString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CountDownLatch/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/CountDownLatch/CountDownLatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CountDownLatch/Parallelismlimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/CountDownLatch/Parallelismlimit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CountDownLatch/RunTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/CountDownLatch/RunTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CyclicBarrier/CyclicBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/CyclicBarrier/CyclicBarrierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DateUtils/TimeStamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/DateUtils/TimeStamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern_Singleton/MySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/DesignPattern_Singleton/MySystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPattern_Singleton/SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/DesignPattern_Singleton/SingletonPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enum/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/Enum/EnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enum/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/Enum/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JDKRuntime/JDKRuntime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/JDKRuntime/JDKRuntime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JDKVector/VectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/JDKVector/VectorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NIO_FileChannel/DirectAndHeapSpeedCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/NIO_FileChannel/DirectAndHeapSpeedCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NIO_FileChannel/FileChannelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/NIO_FileChannel/FileChannelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NIO_FileChannel/MappedByteBufferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/NIO_FileChannel/MappedByteBufferTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NIO_FileChannel/MappedByteBuffer_KafkaUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/NIO_FileChannel/MappedByteBuffer_KafkaUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NIO_FileChannel/transferFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/NIO_FileChannel/transferFrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NIO_FileChannel/transferTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/NIO_FileChannel/transferTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OperatingSystem/OperatingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/OperatingSystem/OperatingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Reactor/BasicHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/Reactor/BasicHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Reactor/MultithreadHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/Reactor/MultithreadHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Reactor/Reactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/Reactor/Reactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLockAndSynchronized/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/Person2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLockAndSynchronized/Person2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/ThreadSafeReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLockAndSynchronized/ThreadSafeReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/ThreadSafeSynchronize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLockAndSynchronized/ThreadSafeSynchronize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/UnThreadSafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLockAndSynchronized/UnThreadSafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLockCondition/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLockCondition/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLockCondition/LockConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLockCondition/LockConditionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLockCondition/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLockCondition/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLock_FairLock/ReentrantLockFairLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLockResult.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLock_FairLock/ReentrantLockFairLockResult.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLock_UnFairLock/ReentrantLockUnFairLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLock_UnFairLock/ReentrantLockUnFairLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantLock_UnFairLock/ReentrantLockUnFairLockResult.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLock_UnFairLock/ReentrantLockUnFairLockResult.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantReadWriteLock/ReentrantReadWriteLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantReadWriteLock/ReentrantReadWriteLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReentrantReadWriteLock/ReentrantReadWriteLockTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantReadWriteLock/ReentrantReadWriteLockTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ScheduledTHreadPoolExecutor/ScheduleThreadPoolExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ScheduledTHreadPoolExecutor/ScheduleThreadPoolExecutorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Semaphore/SemaphoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/Semaphore/SemaphoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShutdownHook/LongTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ShutdownHook/LongTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShutdownHook/ShortTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ShutdownHook/ShortTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShutdownHook/ShutdownHookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ShutdownHook/ShutdownHookMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShutdownHook/TestThreadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ShutdownHook/TestThreadFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShutdownHook/zreadme" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/ShutdownHook/zreadme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multiThread/ThreadPoolExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/felixzh/multiThread/ThreadPoolExecutorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/JDKSpi/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,52 +146,122 @@
     <session id="-403073376">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="MQProducer" value="1" />
           <entry key="gitignore" value="3" />
-          <entry key="java" value="18" />
+          <entry key="java" value="29" />
+          <entry key="md" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="29" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
+          <entry key="SPI" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="4" />
+          <entry key="MQProducer" value="9" />
+          <entry key="dummy" value="6" />
           <entry key="gitignore" value="15" />
-          <entry key="java" value="1512" />
+          <entry key="java" value="2258" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1512" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="JAVA" value="2258" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="SPI" value="9" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JDKVector/VectorDemo.java">
+        <entry file="file://$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="200">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/RabbitMQImpl/RMQProducerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/ServiceLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="216" column="16" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/SDKInterface/MQProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JDKSpi/src/main/resources/META-INF/services/com.felixzh.SDKInterface.MQProducer">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/KafkaImpl/KMQProducerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,6 +273,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Singleton" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -186,22 +313,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Atomic/BooleanTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Atomic/AtomicBooleanTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CountDownLatch/RunableTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CountDownLatch/RunTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CountDownLatch/CountDownLatchTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CountDownLatch/dd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CountDownLatch/Parallellimit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CountDownLatch/Parallelismlimit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SynchronizationOnANonFinalField/class1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CyclicBarrier/CyclicBarrierTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Semaphore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Semaphore/Semaphore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Semaphore/SemaphoreTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Lock/MyFairLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FairLock_ReentrantLock/MyFairLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FairLock_ReentrantLock/FairLockReentrantLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/FairLockReentrantLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReentrantLock_UnFairLock/ReentrantLockUnFairLock.java" />
@@ -237,6 +348,22 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/JDKRuntime/JDKRuntime.java" />
         <option value="$PROJECT_DIR$/src/main/java/JDKVector/VectorDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JDKSpi/MQConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JDKSpi/Interface/MQConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/felixzh/JDKSpi/Interface/MQConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/felixzh/JDKSpi/Interface/MQProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/felixzh/JDKSpi/Interface/MQMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/felixzh/JDKSpi/Interface/MQBusinessHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/felixzh/JDKSpi/SDKInterface/MQProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/felixzh/JDKSpi/KafkaImpl/Main.java" />
+        <option value="$PROJECT_DIR$/JDKSpi/pom.xml" />
+        <option value="$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/KafkaImpl/MQProducerImpl.java" />
+        <option value="$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/KafkaImpl/Main.java" />
+        <option value="$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/RabbitMQImpl/MQProducerImpl.java" />
+        <option value="$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/KafkaImpl/KMQProducerImpl.java" />
+        <option value="$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/RabbitMQImpl/RMQProducerImpl.java" />
+        <option value="$PROJECT_DIR$/JDKSpi/src/main/resources/META-INF/services/com.felixzh.SDKInterface.MQProducer" />
+        <option value="$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/Main.java" />
       </list>
     </option>
   </component>
@@ -287,7 +414,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,17 +425,25 @@
             <path>
               <item name="felixzh-learning-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="felixzh-learning-java" type="462c0819:PsiDirectoryNode" />
+              <item name="JDKSpi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="felixzh-learning-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="felixzh-learning-java" type="462c0819:PsiDirectoryNode" />
+              <item name="JDKSpi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="felixzh-learning-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="felixzh-learning-java" type="462c0819:PsiDirectoryNode" />
+              <item name="JDKSpi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="felixzh-learning-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="felixzh-learning-java" type="462c0819:PsiDirectoryNode" />
+              <item name="JDKSpi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -316,24 +451,62 @@
             <path>
               <item name="felixzh-learning-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="felixzh-learning-java" type="462c0819:PsiDirectoryNode" />
+              <item name="JDKSpi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JDKVector" type="462c0819:PsiDirectoryNode" />
+              <item name="felixzh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="felixzh-learning-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="felixzh-learning-java" type="462c0819:PsiDirectoryNode" />
+              <item name="JDKSpi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="felixzh" type="462c0819:PsiDirectoryNode" />
+              <item name="KafkaImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="felixzh-learning-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="felixzh-learning-java" type="462c0819:PsiDirectoryNode" />
+              <item name="JDKSpi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="felixzh" type="462c0819:PsiDirectoryNode" />
+              <item name="RabbitMQImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="felixzh-learning-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="felixzh-learning-java" type="462c0819:PsiDirectoryNode" />
+              <item name="JDKSpi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="felixzh-learning-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="felixzh-learning-java" type="462c0819:PsiDirectoryNode" />
+              <item name="JDKSpi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594456909724" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596505521095" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../plink" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -342,13 +515,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\sourceCode\felixzhDemo\src\main\java\ReentrantLock_UnFairLock" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\sourceCode\felixzhDemo\src\main\java\ReentrantLock_FairLock" />
       <recent name="D:\sourceCode\felixzhDemo\src\main\java\Reactor" />
       <recent name="D:\sourceCode\felixzhDemo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.felixzh.RabbitMQImpl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sourceCode\felixzhDemo\src\main\java\ReentrantLock_UnFairLock" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -363,13 +539,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VectorDemo">
-    <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Enum.EnumTest" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="JDKRuntime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.felixzh.JDKRuntime.JDKRuntime" />
       <module name="felixzh-learning-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enum.*" />
+          <option name="PATTERN" value="com.felixzh.JDKRuntime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,12 +553,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDKRuntime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDKRuntime.JDKRuntime" />
-      <module name="felixzh-learning-java" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.felixzh.Main" />
+      <module name="JDKSpi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JDKRuntime.*" />
+          <option name="PATTERN" value="com.felixzh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,11 +567,11 @@
       </method>
     </configuration>
     <configuration name="ThreadPoolExecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multiThread.ThreadPoolExecutorTest" />
+      <option name="MAIN_CLASS_NAME" value="com.felixzh.multiThread.ThreadPoolExecutorTest" />
       <module name="felixzh-learning-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multiThread.*" />
+          <option name="PATTERN" value="com.felixzh.multiThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -404,11 +580,11 @@
       </method>
     </configuration>
     <configuration name="TimeStamp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DateUtils.TimeStamp" />
+      <option name="MAIN_CLASS_NAME" value="com.felixzh.DateUtils.TimeStamp" />
       <module name="felixzh-learning-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DateUtils.*" />
+          <option name="PATTERN" value="com.felixzh.DateUtils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,11 +593,11 @@
       </method>
     </configuration>
     <configuration name="VectorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDKVector.VectorDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.felixzh.JDKVector.VectorDemo" />
       <module name="felixzh-learning-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JDKVector.*" />
+          <option name="PATTERN" value="com.felixzh.JDKVector.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,19 +606,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EnumTest" />
       <item itemvalue="Application.ThreadPoolExecutorTest" />
       <item itemvalue="Application.TimeStamp" />
       <item itemvalue="Application.JDKRuntime" />
       <item itemvalue="Application.VectorDemo" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.VectorDemo" />
         <item itemvalue="Application.JDKRuntime" />
         <item itemvalue="Application.TimeStamp" />
         <item itemvalue="Application.ThreadPoolExecutorTest" />
-        <item itemvalue="Application.EnumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -467,12 +643,13 @@
       <workItem from="1590569058401" duration="4691000" />
       <workItem from="1591236438655" duration="4606000" />
       <workItem from="1593592775621" duration="2435000" />
-      <workItem from="1594350756613" duration="6071000" />
+      <workItem from="1594350756613" duration="8252000" />
+      <workItem from="1596501911258" duration="3587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117314000" />
+    <option name="totallyTimeSpent" value="123082000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,7 +664,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.123644255" visible="true" weight="0.20628998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.123644255" visible="true" weight="0.20842217" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -496,14 +673,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22451194" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.318872" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.318872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2407809" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2407809" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Extract Method" order="12" weight="0.329718" />
@@ -525,72 +702,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLock_UnFairLock/ReentrantLockUnFairLockResult.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLock_FairLock/ReentrantLockFairLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/UnThreadSafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-359">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="465" column="67" lean-forward="true" selection-start-line="463" selection-start-column="7" selection-end-line="465" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/ThreadSafeSynchronize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/Person2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="498" column="16" selection-start-line="498" selection-start-column="16" selection-end-line="498" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1422">
-          <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockAndSynchronized/ThreadSafeReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -598,56 +709,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantReadWriteLock/ReentrantReadWriteLockTest2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantReadWriteLock/ReentrantReadWriteLockTest2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern_Singleton/MySystem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/DesignPattern_Singleton/MySystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DesignPattern_Singleton/SingletonPattern.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/DesignPattern_Singleton/SingletonPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantReadWriteLock/ReentrantReadWriteLockTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantReadWriteLock/ReentrantReadWriteLockTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="14" column="48" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLock_UnFairLock/ReentrantLockUnFairLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLock_UnFairLock/ReentrantLockUnFairLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="10" column="39" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockCondition/Provider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLockCondition/Provider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockCondition/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLockCondition/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReentrantLockCondition/LockConditionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/ReentrantLockCondition/LockConditionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
@@ -703,14 +814,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NIO_FileChannel/transferTo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/NIO_FileChannel/transferTo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NIO_FileChannel/transferFrom.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/NIO_FileChannel/transferFrom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
@@ -724,21 +835,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NIO_FileChannel/DirectAndHeapSpeedCompare.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/NIO_FileChannel/DirectAndHeapSpeedCompare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NIO_FileChannel/MappedByteBufferTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/NIO_FileChannel/MappedByteBufferTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NIO_FileChannel/FileChannelTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/NIO_FileChannel/FileChannelTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
@@ -759,53 +870,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NIO_FileChannel/MappedByteBuffer_KafkaUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/NIO_FileChannel/MappedByteBuffer_KafkaUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CommonUtils/GetHostPortFromAdderssString.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/CommonUtils/GetHostPortFromAdderssString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="175">
-            <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Enum/s.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Enum/Status.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/Enum/Status.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Enum/EnumTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/Enum/EnumTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DateUtils/TimeStamp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/DateUtils/TimeStamp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
@@ -826,7 +923,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OperatingSystem/OperatingSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/OperatingSystem/OperatingSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="18" />
@@ -840,10 +937,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JDKRuntime/JDKRuntime.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/JDKRuntime/JDKRuntime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -854,10 +954,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/multiThread/ThreadPoolExecutorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/multiThread/ThreadPoolExecutorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="20" column="53" lean-forward="true" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -872,10 +975,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JDKVector/VectorDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/felixzh/JDKVector/VectorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="-200">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/SDKInterface/MQMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/SDKInterface/MQBusinessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="175">
+            <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/SDKInterface/MQConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDKSpi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/SDKInterface/MQProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/ServiceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="216" column="16" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/KafkaImpl/KMQProducerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/RabbitMQImpl/RMQProducerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDKSpi/src/main/resources/META-INF/services/com.felixzh.SDKInterface.MQProducer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDKSpi/src/main/java/com/felixzh/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
