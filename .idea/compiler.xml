@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HookCase" />
         <module name="JDKSpi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="felixzh-learning-java" target="1.8" />
+      <module name="HookCase" target="1.8" />
       <module name="JDKSpi" target="1.8" />
     </bytecodeTargetLevel>
   </component>

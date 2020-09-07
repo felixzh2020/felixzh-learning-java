@@ -57,5 +57,6 @@
     </build>
     <modules>
         <module>JDKSpi</module>
+        <module>HookCase</module>
     </modules>
 </project>
