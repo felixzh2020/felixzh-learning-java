@@ -1,4 +1,4 @@
-package Telnet;
+package TextProtocols.Telnet;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.EventLoopGroup;

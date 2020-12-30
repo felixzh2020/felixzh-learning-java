@@ -1,4 +1,4 @@
-package Uptime;
+package Fundamental.Uptime;
 
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
@@ -28,7 +28,7 @@ public class UptimeClientHandler extends SimpleChannelInboundHandler<Object> {
 
     @Override
     public void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
-        // Discard received data
+        // Fundamental.Discard received data
     }
 
     @Override

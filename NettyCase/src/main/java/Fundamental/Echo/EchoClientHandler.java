@@ -1,4 +1,4 @@
-package Echo;
+package Fundamental.Echo;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

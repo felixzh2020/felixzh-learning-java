@@ -1,4 +1,4 @@
-package Uptime;
+package Fundamental.Uptime;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;

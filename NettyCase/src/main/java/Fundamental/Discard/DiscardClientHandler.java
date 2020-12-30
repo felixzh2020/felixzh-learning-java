@@ -1,4 +1,4 @@
-package Discard;
+package Fundamental.Discard;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelFuture;

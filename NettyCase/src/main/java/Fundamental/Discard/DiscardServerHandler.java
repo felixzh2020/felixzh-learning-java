@@ -1,4 +1,4 @@
-package Discard;
+package Fundamental.Discard;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;

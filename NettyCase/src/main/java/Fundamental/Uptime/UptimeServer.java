@@ -1,4 +1,4 @@
-package Uptime;
+package Fundamental.Uptime;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -11,7 +11,7 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
 /**
- * Uptime server is served as a connection server.
+ * Fundamental.Uptime server is served as a connection server.
  * So it simply discards all message received.
  */
 public final class UptimeServer {

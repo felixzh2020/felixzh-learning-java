@@ -1,4 +1,4 @@
-package Echo;
+package Fundamental.Echo;
 
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;

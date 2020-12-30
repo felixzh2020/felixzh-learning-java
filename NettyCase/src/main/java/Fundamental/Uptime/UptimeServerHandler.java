@@ -1,4 +1,4 @@
-package Uptime;
+package Fundamental.Uptime;
 
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
