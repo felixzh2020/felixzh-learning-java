@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HookCase/HookCase.iml" filepath="$PROJECT_DIR$/HookCase/HookCase.iml" />
       <module fileurl="file://$PROJECT_DIR$/JDKSpi/JDKSpi.iml" filepath="$PROJECT_DIR$/JDKSpi/JDKSpi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NettyCase/NettyCase.iml" filepath="$PROJECT_DIR$/NettyCase/NettyCase.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/felixzh-learning-java.iml" filepath="$PROJECT_DIR$/.idea/felixzh-learning-java.iml" />
     </modules>
   </component>

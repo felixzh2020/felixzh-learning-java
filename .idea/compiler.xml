@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HookCase" />
         <module name="JDKSpi" />
+        <module name="NettyCase" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="felixzh-learning-java" target="1.8" />
       <module name="HookCase" target="1.8" />
       <module name="JDKSpi" target="1.8" />
+      <module name="NettyCase" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

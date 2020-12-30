@@ -58,5 +58,6 @@
     <modules>
         <module>JDKSpi</module>
         <module>HookCase</module>
+        <module>NettyCase</module>
     </modules>
 </project>

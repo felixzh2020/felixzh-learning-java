@@ -1,5 +1,0 @@
-com\felixzh\SDKInterface\MQBusinessHandler.class
-com\felixzh\SDKInterface\MQConsumer.class
-com\felixzh\SDKInterface\MQProducer.class
-com\felixzh\KafkaImpl\Main.class
-com\felixzh\SDKInterface\MQMessage.class
