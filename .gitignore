@@ -9,10 +9,9 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
 .idea
 .idea/*
-
+.idea/workspace.xml
 # Package Files #
 *.jar
 *.war
@@ -26,3 +25,7 @@
 hs_err_pid*
 
 *.xml
+
+# Maven Files
+target
+*/target
