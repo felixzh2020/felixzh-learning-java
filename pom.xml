@@ -60,5 +60,6 @@
         <module>HookCase</module>
         <module>NettyCase</module>
         <module>JDKCipher</module>
+        <module>PageHelper</module>
     </modules>
 </project>
