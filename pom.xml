@@ -61,5 +61,6 @@
         <module>NettyCase</module>
         <module>JDKCipher</module>
         <module>PageHelper</module>
+        <module>GenericCase</module>
     </modules>
 </project>
