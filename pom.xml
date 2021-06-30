@@ -62,5 +62,6 @@
         <module>JDKCipher</module>
         <module>PageHelper</module>
         <module>GenericCase</module>
+        <module>OOMTest</module>
     </modules>
 </project>

@@ -3,7 +3,10 @@ import java.util.List;
 
 /**
  * 自定义分页器:从总数集中提取指定页的数据集
+ *
+ * @author felixzh
  */
+
 public class PageHelper<T> {
     //总数据集
     private List<T> allRecordData;
