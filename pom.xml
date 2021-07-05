@@ -63,5 +63,6 @@
         <module>PageHelper</module>
         <module>GenericCase</module>
         <module>OOMTest</module>
+        <module>RocksDBCase</module>
     </modules>
 </project>

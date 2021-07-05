@@ -1,12 +1,14 @@
-import scala.util.Random;
+
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 public class OutOfMemoryGCLimitExceed {
-    public static void main(String[]args){
+    public static void main(String[] args) {
         addRandomDataToMap();
     }
+
     public static void addRandomDataToMap() {
         Map<Integer, String> dataMap = new HashMap<>();
         Random r = new Random();
