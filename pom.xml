@@ -64,5 +64,6 @@
         <module>GenericCase</module>
         <module>OOMTest</module>
         <module>RocksDBCase</module>
+        <module>JavaNIO</module>
     </modules>
 </project>
