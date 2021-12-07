@@ -65,5 +65,6 @@
         <module>OOMTest</module>
         <module>RocksDBCase</module>
         <module>JavaNIO</module>
+        <module>ZookeeperCase</module>
     </modules>
 </project>
