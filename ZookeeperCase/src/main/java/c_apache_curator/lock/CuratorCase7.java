@@ -1,4 +1,4 @@
-package c_apache_curator;
+package c_apache_curator.lock;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;

@@ -1,4 +1,4 @@
-package c_apache_curator;
+package c_apache_curator.path_cache;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
@@ -6,6 +6,7 @@ import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.framework.recipes.cache.*;
 import org.apache.curator.retry.ExponentialBackoffRetry;
 
+import java.util.Date;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -20,10 +21,9 @@ import java.util.concurrent.Executors;
  * Tree Cache - (For preZooKeeper 3.6.x) A utility that attempts to keep all data from all children of a ZK path locally cached. This class will watch the ZK path, respond to update/create/delete events, pull down the data, etc. You can register a listener that will get notified when changes occur.
  * 上述介绍就是说：3.6.x之后，Path Cache、Node Cache、Tree Cache均标记为废弃，建议使用Curator Cache。
  * <p>
- * 该类主要介绍 Curator Tree Cache 使用方法 监听指定节点下所有子节点、子子节点等等，级联监听，可设置最大深度。而Path Node仅监子节点，并不进行级联监听
+ * 该类主要介绍 Curator Path Cache 使用方法 监听子节点的变化
  */
-public class CuratorCase5 {
-    public static String NodeCache = null;
+public class CuratorCase4 {
 
     public static void main(String[] args) throws Exception {
         //连接超时
@@ -50,43 +50,31 @@ public class CuratorCase5 {
 
         ExecutorService executorService = Executors.newFixedThreadPool(4);
         //主线程需要等待线程池执行完成
-        final CountDownLatch countDownLatch = new CountDownLatch(500);
+        final CountDownLatch countDownLatch = new CountDownLatch(5);
 
-        //TreeCache：监听节点树的变化
-        final TreeCache treeCache = TreeCache.newBuilder(cfClient, "/")
-                .setMaxDepth(5)
-                .setCacheData(true)
-                .setCreateParentNodes(true)
-                .setDataIsCompressed(false)
-                .setExecutor(executorService)
-                /*.setSelector(new TreeCacheSelector() {
-                    @Override
-                    public boolean traverseChildren(String fullPath) {
-                        return false;
-                    }
+        //PathChildrenCache：监听子节点的变化
+        final PathChildrenCache pathChildrenCache = new PathChildrenCache(cfClient, "/zookeeper", true);
 
-                    @Override
-                    public boolean acceptChild(String fullPath) {
-                        return false;
-                    }
-                })*/
-                .build();
-
-        treeCache.start();
-        treeCache.getListenable().addListener(new TreeCacheListener() {
+        //Mode1：POST_INITIALIZED_EVENT：获取已有Path信息，建议使用
+        pathChildrenCache.start(PathChildrenCache.StartMode.POST_INITIALIZED_EVENT);
+        //Mode2: NORMAL：获取已有Path信息，较POST_INITIALIZED_EVENT，少了INITIALIZED事件
+        //pathChildrenCache.start(PathChildrenCache.StartMode.NORMAL);
+        //Mode3：BUILD_INITIAL_CACHE：不获取已有Path信息，仅捕获后续发生的变更事件
+        //pathChildrenCache.start(PathChildrenCache.StartMode.BUILD_INITIAL_CACHE);
+        pathChildrenCache.getListenable().addListener(new PathChildrenCacheListener() {
             @Override
-            public void childEvent(CuratorFramework client, TreeCacheEvent event) throws Exception {
+            public void childEvent(CuratorFramework client, PathChildrenCacheEvent event) throws Exception {
                 switch (event.getType()) {
                     case INITIALIZED:
-                        System.out.println("==INITIALIZED: " + event.getOldData());
+                        System.out.println("==INITIALIZED: " + event.getInitialData());
                         break;
-                    case NODE_ADDED:
+                    case CHILD_ADDED:
                         System.out.println("==CHILD_ADDED: " + event.getData());
                         break;
-                    case NODE_REMOVED:
+                    case CHILD_REMOVED:
                         System.out.println("==CHILD_REMOVED: " + event.getData());
                         break;
-                    case NODE_UPDATED:
+                    case CHILD_UPDATED:
                         System.out.println("==CHILD_UPDATED: " + event.getData());
                         break;
                     case CONNECTION_LOST:
@@ -104,13 +92,13 @@ public class CuratorCase5 {
                 System.out.println("currentData: " + countDownLatch.getCount());
                 countDownLatch.countDown();
             }
-        });
+        }, executorService);
 
         //模拟业务，从数据缓存中读取数据。测试的时候为了能读取到数据，用countDownLatch阻塞，真实业务场景不会阻塞。
         countDownLatch.await();
 
         //释放资源
-        treeCache.close();
+        pathChildrenCache.close();
         executorService.shutdown();
         cfClient.close();
     }

@@ -1,4 +1,4 @@
-package c_apache_curator;
+package c_apache_curator.node_cache;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
