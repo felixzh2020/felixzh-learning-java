@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  * 锁类型包括：InterProcessMutex、InterProcessMultiLock、InterProcessReadWriteLock、InterProcessSemaphoreMutex
  * 均实现 interface InterProcessLock
  */
-public class CuratorCase7 {
+public class CuratorLockByInterProcessMutex {
 
     public static void main(String[] args) {
         //连接超时

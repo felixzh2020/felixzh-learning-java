@@ -17,7 +17,7 @@ import java.util.List;
  * <p>
  * 该类主要介绍 Curator 事务管理 操作
  **/
-public class CuratorCase2 {
+public class CuratorTransactionCache {
     public static void main(String[] args) throws Exception {
         //连接超时
         int CONNECTION_TIMEOUT_MS = 15_000;

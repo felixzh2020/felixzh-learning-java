@@ -1,4 +1,4 @@
-package c_apache_curator.CURD;
+package c_apache_curator.curd;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
@@ -13,7 +13,7 @@ import org.apache.zookeeper.data.Stat;
  * <p>
  * 该类主要介绍 Curator 增删改查 基本操作
  **/
-public class CuratorCase1 {
+public class CuratorCurdCase {
     public static void main(String[] args) throws Exception {
         //连接超时
         int CONNECTION_TIMEOUT_MS = 15_000;

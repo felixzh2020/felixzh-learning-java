@@ -23,7 +23,7 @@ import java.util.concurrent.Executors;
  * <p>
  * 该类主要介绍 Curator Path Cache 使用方法 监听子节点的变化
  */
-public class CuratorCase4 {
+public class CuratorPathCache {
 
     public static void main(String[] args) throws Exception {
         //连接超时

@@ -1,4 +1,4 @@
-package c_apache_curator.node_cache;
+package c_apache_curator.curator_cache;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
@@ -6,10 +6,11 @@ import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.framework.recipes.cache.*;
 import org.apache.curator.retry.ExponentialBackoffRetry;
 
-import java.util.Date;
+import java.util.Arrays;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.function.Consumer;
 
 /**
  * @author FelixZh
@@ -21,11 +22,10 @@ import java.util.concurrent.Executors;
  * Tree Cache - (For preZooKeeper 3.6.x) A utility that attempts to keep all data from all children of a ZK path locally cached. This class will watch the ZK path, respond to update/create/delete events, pull down the data, etc. You can register a listener that will get notified when changes occur.
  * 上述介绍就是说：3.6.x之后，Path Cache、Node Cache、Tree Cache均标记为废弃，建议使用Curator Cache。
  * <p>
- * 该类主要介绍 Curator Node Cache 使用方法  监听数据节点的变化
+ * 该类主要介绍 Curator Cache 使用方法。 可以支持Node Cache需要显示设置withOptions(CuratorCache.Options.SINGLE_NODE_CACHE)、Tree Cache(默认支持)
  */
-public class CuratorCase3 {
-    //数据缓存
-    public static String nodeCacheData = null;
+public class CuratorCacheCase {
+    public static String NodeCache = null;
 
     public static void main(String[] args) throws Exception {
         //连接超时
@@ -50,33 +50,46 @@ public class CuratorCase3 {
         //Start the client. Most mutator methods will not work until the client is started
         cfClient.start();
 
-        ExecutorService executorService = Executors.newFixedThreadPool(1);
+        ExecutorService executorService = Executors.newFixedThreadPool(4);
         //主线程需要等待线程池执行完成
-        final CountDownLatch countDownLatch = new CountDownLatch(1);
+        final CountDownLatch countDownLatch = new CountDownLatch(500);
 
-        //NodeCache：监听数据节点的变化
-        final NodeCache nodeCache = new NodeCache(cfClient, "/zookeeper", false);
-        nodeCache.start(true);
-        nodeCache.getListenable().addListener(new NodeCacheListener() {
+        CuratorCache curatorCache = CuratorCache.builder(cfClient, "/")
+                /*.withOptions(CuratorCache.Options.SINGLE_NODE_CACHE)*/
+                /*.withOptions(CuratorCache.Options.COMPRESSED_DATA)*/
+                /*.withOptions(CuratorCache.Options.DO_NOT_CLEAR_ON_CLOSE)*/
+                .build();
+
+        curatorCache.listenable().addListener(new CuratorCacheListener() {
             @Override
-            public void nodeChanged() throws Exception {
-                String newData = new String(nodeCache.getCurrentData().getData());
-                System.out.println("new Data: " + newData);
-                //将新数据更新到数据缓存
-                nodeCacheData = newData;
+            public void event(Type type, ChildData oldData, ChildData data) {
+                switch (type.name()) {
+                    case "NODE_CREATED":
+                        System.out.println("NODE_CREATED: " + oldData + " : " + data);
+                        break;
+                    case "NODE_CHANGED":
+                        System.out.println("NODE_CHANGED: " + oldData + " : " + data);
+                        break;
+                    case "NODE_DELETED":
+                        System.out.println("NODE_DELETED: " + oldData + " : " + data);
+                        break;
+                    default:
+                        break;
+                }
+
+                System.out.println("currentData: " + countDownLatch.getCount());
                 countDownLatch.countDown();
             }
         }, executorService);
-        //测试，重置/zookeeper节点数据
-        cfClient.setData().forPath("/zookeeper", new Date().toString().getBytes());
+
+        curatorCache.start();
 
         //模拟业务，从数据缓存中读取数据。测试的时候为了能读取到数据，用countDownLatch阻塞，真实业务场景不会阻塞。
         countDownLatch.await();
-        System.out.println("getNodeCache : " + nodeCacheData);
 
         //释放资源
-        nodeCache.close();
-        cfClient.close();
+        curatorCache.close();
         executorService.shutdown();
+        cfClient.close();
     }
 }
