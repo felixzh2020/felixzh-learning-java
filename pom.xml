@@ -74,5 +74,6 @@
         <module>RocksDBCase</module>
         <module>JavaNIO</module>
         <module>ZookeeperCase</module>
+        <module>BitMapCase</module>
     </modules>
 </project>
