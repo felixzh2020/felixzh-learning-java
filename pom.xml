@@ -75,5 +75,6 @@
         <module>JavaNIO</module>
         <module>ZookeeperCase</module>
         <module>BitMapCase</module>
+        <module>ThreadPool</module>
     </modules>
 </project>
