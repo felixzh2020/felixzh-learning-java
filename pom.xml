@@ -76,5 +76,6 @@
         <module>ZookeeperCase</module>
         <module>BitMapCase</module>
         <module>ThreadPool</module>
+        <module>BookkeeperCase</module>
     </modules>
 </project>
