@@ -77,5 +77,6 @@
         <module>BitMapCase</module>
         <module>ThreadPool</module>
         <module>BookkeeperCase</module>
+        <module>BloomFilter</module>
     </modules>
 </project>
