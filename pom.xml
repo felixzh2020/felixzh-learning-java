@@ -78,5 +78,6 @@
         <module>ThreadPool</module>
         <module>BookkeeperCase</module>
         <module>BloomFilter</module>
+        <module>JDKHttpServer</module>
     </modules>
 </project>
