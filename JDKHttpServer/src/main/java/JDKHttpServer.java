@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * JDK原生HttpServer
@@ -20,6 +22,9 @@ public class JDKHttpServer {
         //监听上下文.指定匹配url
         httpServer.createContext("/", new MyHttpHandler());
         httpServer.createContext("/hello", new MyHttpHandler());
+
+        ExecutorService executorService = Executors.newFixedThreadPool(5);
+        httpServer.setExecutor(executorService);
 
         //启动服务
         httpServer.start();
