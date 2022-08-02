@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.felixzh.learning</groupId>
-    <artifactId>HookCase</artifactId>
+    <artifactId>JVMHookCase</artifactId>
     <version>1.0</version>
 
 

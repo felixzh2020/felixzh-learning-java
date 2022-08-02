@@ -65,7 +65,7 @@
     </build>
     <modules>
         <module>JDKSpi</module>
-        <module>HookCase</module>
+        <module>JVMHookCase</module>
         <module>NettyCase</module>
         <module>JDKCipher</module>
         <module>PageHelper</module>
