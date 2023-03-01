@@ -79,5 +79,6 @@
         <module>BookkeeperCase</module>
         <module>BloomFilter</module>
         <module>JDKHttpServer</module>
+        <module>BtoaAndAtob</module>
     </modules>
 </project>
