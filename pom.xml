@@ -80,5 +80,6 @@
         <module>BloomFilter</module>
         <module>JDKHttpServer</module>
         <module>BtoaAndAtob</module>
+        <module>GSONCase</module>
     </modules>
 </project>
