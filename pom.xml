@@ -81,5 +81,6 @@
         <module>JDKHttpServer</module>
         <module>BtoaAndAtob</module>
         <module>GSONCase</module>
+        <module>FilePackUtils</module>
     </modules>
 </project>
