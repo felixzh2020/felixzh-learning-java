@@ -39,6 +39,7 @@ public class TarCompressDemo {
         File file = new File(sourceDir);
         String entryName = base + file.getName();
         TarArchiveEntry entry = new TarArchiveEntry(file, entryName);
+        entry.setSize(file.length());
         tarOutput.putArchiveEntry(entry);
         if (file.isFile()) {
             try (BufferedInputStream input = new BufferedInputStream(new FileInputStream(file))) {
