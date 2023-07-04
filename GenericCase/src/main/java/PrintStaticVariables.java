@@ -19,6 +19,7 @@ public class PrintStaticVariables {
         for (Field field : fields) {
             if (java.lang.reflect.Modifier.isStatic(field.getModifiers())) {
                 try {
+                    field.setAccessible(true);
                     System.out.println(String.format("%s=%s", field.getName(), field.get(null)));
                 } catch (IllegalAccessException e) {
                     e.printStackTrace();
