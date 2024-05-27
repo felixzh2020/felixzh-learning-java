@@ -83,5 +83,6 @@
         <module>GSONCase</module>
         <module>TarCompressUtils</module>
         <module>JacksonCase</module>
+        <module>NativeMemoryTrack</module>
     </modules>
 </project>
