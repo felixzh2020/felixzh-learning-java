@@ -30,7 +30,7 @@
                     <appendAssemblyId>true</appendAssemblyId>
                     <archive>
                         <manifest>
-                            <mainClass>this is main class</mainClass>
+                            <mainClass>com.felixzh.JDKRuntime.JDKRuntimeForPgDump</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -76,7 +76,6 @@
         <module>ZookeeperCase</module>
         <module>BitMapCase</module>
         <module>ThreadPool</module>
-        <module>BookkeeperCase</module>
         <module>BloomFilter</module>
         <module>JDKHttpServer</module>
         <module>BtoaAndAtob</module>
@@ -84,5 +83,6 @@
         <module>TarCompressUtils</module>
         <module>JacksonCase</module>
         <module>NativeMemoryTrack</module>
+        <module>JDKRuntime</module>
     </modules>
 </project>
