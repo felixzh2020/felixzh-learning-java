@@ -84,5 +84,6 @@
         <module>JacksonCase</module>
         <module>NativeMemoryTrack</module>
         <module>JDKRuntime</module>
+        <module>LDAP</module>
     </modules>
 </project>
